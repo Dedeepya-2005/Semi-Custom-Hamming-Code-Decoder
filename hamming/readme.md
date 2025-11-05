@@ -1,4 +1,39 @@
+# **Semi-Custom Implementation of Hamming Code Decoder using Verilog HDL**
 
+---
+
+## **1. Introduction**
+The main aim of this project is to design and implement a **Hamming (7,4) code decoder** using **Verilog HDL** and perform the **semi-custom physical design flow** using **Cadence tools**.  
+The Hamming code is one of the most widely used error-correcting codes that can detect up to two-bit errors and correct a single-bit error.  
+This project demonstrates both **functional design (RTL)** and **physical implementation (VLSI backend)** stages of a digital system, providing a complete understanding of the modern **ASIC design flow**.
+
+---
+
+## **2. Project Objectives**
+- To design a Hamming (7,4) decoder capable of detecting and correcting single-bit errors.  
+- To simulate the Verilog design and verify correct decoding using testbench waveforms.  
+- To perform synthesis using **Cadence Genus** with a **90nm standard cell library**.  
+- To complete placement, routing, and DRC verification using **Cadence Innovus**.  
+- To understand the overall **semi-custom ASIC design flow**, from RTL design to layout generation.
+
+---
+
+## **3. Theory Behind Hamming Code**
+The **Hamming code** is a linear error-correcting code invented by **Richard Hamming** in 1950.  
+It adds redundant bits (parity bits) to the data to allow detection and correction of single-bit errors.
+
+For a (7,4) Hamming code:
+- 4 data bits → D1, D2, D3, D4  
+- 3 parity bits → P1, P2, P4  
+
+The parity bits are placed at positions **1, 2, and 4**.  
+The codeword is arranged as:  
+**P1, P2, D1, P4, D2, D3, D4**
+
+### **Parity Equations:**
+P1 = D1 ⊕ D2 ⊕ D4
+P2 = D1 ⊕ D3 ⊕ D4
+P4 = D2 ⊕ D3 ⊕ D4
 The decoder recomputes the parity bits and checks for errors using the **syndrome** value.  
 If the syndrome is non-zero, it identifies the bit position that contains the error and corrects it.
 
@@ -101,3 +136,4 @@ I also extend my thanks to the **Department of ECE** for providing access to the
 4. *Digital Design* by M. Morris Mano, Pearson Publications.
 
 ---
+
