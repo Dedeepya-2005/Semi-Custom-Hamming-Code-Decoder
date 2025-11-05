@@ -1,0 +1,601 @@
+[11/01 14:49:23      0s] 
+[11/01 14:49:23      0s] Cadence Innovus(TM) Implementation System.
+[11/01 14:49:23      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[11/01 14:49:23      0s] 
+[11/01 14:49:23      0s] Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+[11/01 14:49:23      0s] Options:	
+[11/01 14:49:23      0s] Date:		Sat Nov  1 14:49:23 2025
+[11/01 14:49:23      0s] Host:		cad19 (x86_64 w/Linux 3.10.0-1160.el7.x86_64) (6cores*12cpus*Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz 12288KB)
+[11/01 14:49:23      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[11/01 14:49:23      0s] 
+[11/01 14:49:23      0s] License:
+[11/01 14:49:23      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[11/01 14:49:23      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[11/01 14:49:36      9s] @(#)CDS: Innovus v20.14-s095_1 (64bit) 04/19/2021 14:41 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/01 14:49:36      9s] @(#)CDS: NanoRoute 20.14-s095_1 NR210411-1939/20_14-UB (database version 18.20.547) {superthreading v2.13}
+[11/01 14:49:36      9s] @(#)CDS: AAE 20.14-s018 (64bit) 04/19/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/01 14:49:36      9s] @(#)CDS: CTE 20.14-s027_1 () Apr 13 2021 21:29:07 ( )
+[11/01 14:49:36      9s] @(#)CDS: SYNTECH 20.14-s017_1 () Mar 25 2021 13:07:27 ( )
+[11/01 14:49:36      9s] @(#)CDS: CPE v20.14-s080
+[11/01 14:49:36      9s] @(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/01 14:49:36      9s] @(#)CDS: OA 22.60-p052 Thu Feb 25 10:35:13 2021
+[11/01 14:49:36      9s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[11/01 14:49:36      9s] @(#)CDS: RCDB 11.15.0
+[11/01 14:49:36      9s] @(#)CDS: STYLUS 20.10-p026_1 (03/12/2021 08:04 PST)
+[11/01 14:49:36      9s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_18161_cad19_iiitdmk_j9WroC.
+
+[11/01 14:49:36      9s] Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+[11/01 14:49:37     10s] 
+[11/01 14:49:37     10s] **INFO:  MMMC transition support version v31-84 
+[11/01 14:49:37     10s] 
+[11/01 14:49:37     10s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[11/01 14:49:37     10s] <CMD> suppressMessage ENCEXT-2799
+[11/01 14:49:37     10s] <CMD> getVersion
+[11/01 14:49:37     10s] <CMD> getVersion
+[11/01 14:49:38     10s] <CMD> getVersion
+[11/01 14:49:39     11s] [INFO] Loading PVS 20.11 fill procedures
+[11/01 14:49:39     11s] <CMD> win
+[11/01 14:53:24     38s] <CMD> set init_lef_file ../../../install/FOUNDRY/digital/90nm/dig/lef/gsclib090_translated.lef
+[11/01 14:53:24     38s] <CMD> set init_design_settop 0
+[11/01 14:53:24     38s] <CMD> set init_verilog dedee_90nm_netlist.v
+[11/01 14:53:24     38s] <CMD> set init_mmmc_file Default.view
+[11/01 14:53:24     38s] <CMD> init_design
+[11/01 14:53:25     38s] #% Begin Load MMMC data ... (date=11/01 14:53:25, mem=683.6M)
+[11/01 14:53:25     38s] #% End Load MMMC data ... (date=11/01 14:53:25, total cpu=0:00:00.0, real=0:00:00.0, peak res=684.1M, current mem=684.1M)
+[11/01 14:53:25     38s] 
+[11/01 14:53:25     38s] Loading LEF file ../../../install/FOUNDRY/digital/90nm/dig/lef/gsclib090_translated.lef ...
+[11/01 14:53:25     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_POv', 
+[11/01 14:53:25     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFF', 
+[11/01 14:53:25     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PSUB', 
+[11/01 14:53:25     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PIMP', 
+[11/01 14:53:25     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NIMP', 
+[11/01 14:53:25     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NWELL', 
+[11/01 14:53:25     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PO', 
+[11/01 14:53:25     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFFc', 
+[11/01 14:53:25     38s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_POLYc', 
+[11/01 14:53:25     38s] **WARN: (IMPLF-105):	The layer 'Oxide' specified in SAMENET spacing
+[11/01 14:53:25     38s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[11/01 14:53:25     38s] **WARN: (IMPLF-105):	The layer 'Poly' specified in SAMENET spacing
+[11/01 14:53:25     38s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[11/01 14:53:25     38s] Set DBUPerIGU to M2 pitch 580.
+[11/01 14:53:25     38s] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[11/01 14:53:25     38s] Type 'man IMPLF-200' for more detail.
+[11/01 14:53:25     38s] 
+[11/01 14:53:25     38s] viaInitial starts at Sat Nov  1 14:53:25 2025
+viaInitial ends at Sat Nov  1 14:53:25 2025
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+[11/01 14:53:25     38s] Loading view definition file from Default.view
+[11/01 14:53:25     38s] Reading fast timing library '/home/install/FOUNDRY/digital/90nm/dig/lib/fast.lib' ...
+[11/01 14:53:25     38s] Read 479 cells in library 'fast' 
+[11/01 14:53:25     38s] Reading slow timing library '/home/install/FOUNDRY/digital/90nm/dig/lib/slow.lib' ...
+[11/01 14:53:26     39s] Read 479 cells in library 'slow' 
+[11/01 14:53:26     39s] Ending "PreSetAnalysisView" (total cpu=0:00:00.7, real=0:00:01.0, peak res=758.9M, current mem=703.2M)
+[11/01 14:53:26     39s] *** End library_loading (cpu=0.01min, real=0.02min, mem=13.0M, fe_cpu=0.65min, fe_real=4.05min, fe_mem=815.1M) ***
+[11/01 14:53:26     39s] #% Begin Load netlist data ... (date=11/01 14:53:26, mem=703.2M)
+[11/01 14:53:26     39s] *** Begin netlist parsing (mem=815.1M) ***
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[11/01 14:53:26     39s] Type 'man IMPVL-159' for more detail.
+[11/01 14:53:26     39s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[11/01 14:53:26     39s] To increase the message display limit, refer to the product command reference manual.
+[11/01 14:53:26     39s] Created 479 new cells from 2 timing libraries.
+[11/01 14:53:26     39s] Reading netlist ...
+[11/01 14:53:26     39s] Backslashed names will retain backslash and a trailing blank character.
+[11/01 14:53:26     39s] Reading verilog netlist 'dedee_90nm_netlist.v'
+[11/01 14:53:26     39s] 
+[11/01 14:53:26     39s] *** Memory Usage v#1 (Current mem = 815.086M, initial mem = 292.301M) ***
+[11/01 14:53:26     39s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=815.1M) ***
+[11/01 14:53:26     39s] #% End Load netlist data ... (date=11/01 14:53:26, total cpu=0:00:00.0, real=0:00:00.0, peak res=712.4M, current mem=712.4M)
+[11/01 14:53:26     39s] Top level cell is dedee.
+[11/01 14:53:26     39s] Hooked 958 DB cells to tlib cells.
+[11/01 14:53:26     39s] Ending "BindLib:" (total cpu=0:00:00.0, real=0:00:00.0, peak res=725.8M, current mem=725.8M)
+[11/01 14:53:26     39s] Starting recursive module instantiation check.
+[11/01 14:53:26     39s] No recursion found.
+[11/01 14:53:26     39s] Building hierarchical netlist for Cell dedee ...
+[11/01 14:53:26     39s] *** Netlist is unique.
+[11/01 14:53:26     39s] Setting Std. cell height to 5220 DBU (smallest netlist inst).
+[11/01 14:53:26     39s] ** info: there are 968 modules.
+[11/01 14:53:26     39s] ** info: there are 15 stdCell insts.
+[11/01 14:53:26     39s] 
+[11/01 14:53:26     39s] *** Memory Usage v#1 (Current mem = 859.512M, initial mem = 292.301M) ***
+[11/01 14:53:26     39s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/01 14:53:26     39s] Type 'man IMPFP-3961' for more detail.
+[11/01 14:53:26     39s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/01 14:53:26     39s] Type 'man IMPFP-3961' for more detail.
+[11/01 14:53:26     39s] Horizontal Layer M1 offset = 290 (derived)
+[11/01 14:53:26     39s] Vertical Layer M2 offset = 290 (derived)
+[11/01 14:53:26     39s] Generated pitch 0.29 in Metal8 is different from 0.87 defined in technology file in unpreferred direction.
+[11/01 14:53:26     39s] Set Default Net Delay as 1000 ps.
+[11/01 14:53:26     39s] Set Default Net Load as 0.5 pF. 
+[11/01 14:53:26     39s] Set Default Input Pin Transition as 0.1 ps.
+[11/01 14:53:26     39s] Extraction setup Started 
+[11/01 14:53:26     39s] Initializing multi-corner RC extraction with 1 active RC Corners ...
+[11/01 14:53:26     39s] Captable file(s) not specified in multi-corner setup. PreRoute extraction will use technology file. For postRoute extraction, default value for effort level would be 'medium' and effort level 'low' would not be allowed.
+[11/01 14:53:26     39s] __QRC_SADV_USE_LE__ is set 0
+[11/01 14:53:26     39s] Metal Layer Id 1 is Metal1 
+[11/01 14:53:26     39s] Metal Layer Id 2 is Metal2 
+[11/01 14:53:26     39s] Metal Layer Id 3 is Metal3 
+[11/01 14:53:26     39s] Metal Layer Id 4 is Metal4 
+[11/01 14:53:26     39s] Metal Layer Id 5 is Metal5 
+[11/01 14:53:26     39s] Metal Layer Id 6 is Metal6 
+[11/01 14:53:26     39s] Metal Layer Id 7 is Metal7 
+[11/01 14:53:26     39s] Metal Layer Id 8 is Metal8 
+[11/01 14:53:26     39s] Metal Layer Id 9 is Metal9 
+[11/01 14:53:26     39s] Via Layer Id 33 is Cont 
+[11/01 14:53:26     39s] Via Layer Id 34 is Via1 
+[11/01 14:53:26     39s] Via Layer Id 35 is Via2 
+[11/01 14:53:26     39s] Via Layer Id 36 is Via3 
+[11/01 14:53:26     39s] Via Layer Id 37 is Via4 
+[11/01 14:53:26     39s] Via Layer Id 38 is Via5 
+[11/01 14:53:26     39s] Via Layer Id 39 is Via6 
+[11/01 14:53:26     39s] Via Layer Id 40 is Via7 
+[11/01 14:53:26     39s] Via Layer Id 41 is Via8 
+[11/01 14:53:26     39s] Generating auto layer map file.
+[11/01 14:53:26     39s]  lef metal Layer Id 1 mapped to tech Id 4 of Layer metal_1 
+[11/01 14:53:26     39s]  lef via Layer Id 1 mapped to tech Id 5 of Layer via_1 
+[11/01 14:53:26     39s]  lef metal Layer Id 2 mapped to tech Id 6 of Layer metal_2 
+[11/01 14:53:26     39s]  lef via Layer Id 2 mapped to tech Id 7 of Layer via_2 
+[11/01 14:53:26     39s]  lef metal Layer Id 3 mapped to tech Id 8 of Layer metal_3 
+[11/01 14:53:26     39s]  lef via Layer Id 3 mapped to tech Id 9 of Layer via_3 
+[11/01 14:53:26     39s]  lef metal Layer Id 4 mapped to tech Id 10 of Layer metal_4 
+[11/01 14:53:26     39s]  lef via Layer Id 4 mapped to tech Id 11 of Layer via_4 
+[11/01 14:53:26     39s]  lef metal Layer Id 5 mapped to tech Id 12 of Layer metal_5 
+[11/01 14:53:26     39s]  lef via Layer Id 5 mapped to tech Id 13 of Layer via_5 
+[11/01 14:53:26     39s]  lef metal Layer Id 6 mapped to tech Id 14 of Layer metal_6 
+[11/01 14:53:26     39s]  lef via Layer Id 6 mapped to tech Id 15 of Layer via_6 
+[11/01 14:53:26     39s]  lef metal Layer Id 7 mapped to tech Id 16 of Layer metal_7 
+[11/01 14:53:26     39s]  lef via Layer Id 7 mapped to tech Id 17 of Layer via_7 
+[11/01 14:53:26     39s]  lef metal Layer Id 8 mapped to tech Id 18 of Layer metal_8 
+[11/01 14:53:26     39s]  lef via Layer Id 8 mapped to tech Id 19 of Layer via_8 
+[11/01 14:53:26     39s]  lef metal Layer Id 9 mapped to tech Id 20 of Layer metal_9 
+[11/01 14:53:26     39s] Metal Layer Id 1 mapped to 4 
+[11/01 14:53:26     39s] Via Layer Id 1 mapped to 5 
+[11/01 14:53:26     39s] Metal Layer Id 2 mapped to 6 
+[11/01 14:53:26     39s] Via Layer Id 2 mapped to 7 
+[11/01 14:53:26     39s] Metal Layer Id 3 mapped to 8 
+[11/01 14:53:26     39s] Via Layer Id 3 mapped to 9 
+[11/01 14:53:26     39s] Metal Layer Id 4 mapped to 10 
+[11/01 14:53:26     39s] Via Layer Id 4 mapped to 11 
+[11/01 14:53:26     39s] Metal Layer Id 5 mapped to 12 
+[11/01 14:53:26     39s] Via Layer Id 5 mapped to 13 
+[11/01 14:53:26     39s] Metal Layer Id 6 mapped to 14 
+[11/01 14:53:26     39s] Via Layer Id 6 mapped to 15 
+[11/01 14:53:26     39s] Metal Layer Id 7 mapped to 16 
+[11/01 14:53:26     39s] Via Layer Id 7 mapped to 17 
+[11/01 14:53:26     39s] Metal Layer Id 8 mapped to 18 
+[11/01 14:53:26     39s] Via Layer Id 8 mapped to 19 
+[11/01 14:53:26     39s] Metal Layer Id 9 mapped to 20 
+[11/01 14:53:26     39s] eee: pegPreRouteEnableSaveRestoreRCPatterns:1, retVal:1, doesAnyTechFileNeedExtraction1
+[11/01 14:53:26     39s] eee: Reading patterns meta data.
+[11/01 14:53:26     39s] eee: PatternAvail:0, PreRoutePatternReadFailed:1
+[11/01 14:53:26     39s] Restore PreRoute Pattern Extraction data failed.
+[11/01 14:53:26     39s] Importing multi-corner technology file(s) for preRoute extraction...
+[11/01 14:53:26     39s] ../../../install/FOUNDRY/digital/90nm/dig/qrc/gpdk090_9l.tch
+[11/01 14:53:27     40s] Metal Layer Id 1 is Metal1 
+[11/01 14:53:27     40s] Metal Layer Id 2 is Metal2 
+[11/01 14:53:27     40s] Metal Layer Id 3 is Metal3 
+[11/01 14:53:27     40s] Metal Layer Id 4 is Metal4 
+[11/01 14:53:27     40s] Metal Layer Id 5 is Metal5 
+[11/01 14:53:27     40s] Metal Layer Id 6 is Metal6 
+[11/01 14:53:27     40s] Metal Layer Id 7 is Metal7 
+[11/01 14:53:27     40s] Metal Layer Id 8 is Metal8 
+[11/01 14:53:27     40s] Metal Layer Id 9 is Metal9 
+[11/01 14:53:27     40s] Via Layer Id 33 is Cont 
+[11/01 14:53:27     40s] Via Layer Id 34 is Via1 
+[11/01 14:53:27     40s] Via Layer Id 35 is Via2 
+[11/01 14:53:27     40s] Via Layer Id 36 is Via3 
+[11/01 14:53:27     40s] Via Layer Id 37 is Via4 
+[11/01 14:53:27     40s] Via Layer Id 38 is Via5 
+[11/01 14:53:27     40s] Via Layer Id 39 is Via6 
+[11/01 14:53:27     40s] Via Layer Id 40 is Via7 
+[11/01 14:53:27     40s] Via Layer Id 41 is Via8 
+[11/01 14:53:27     40s] Generating auto layer map file.
+[11/01 14:53:27     40s]  lef metal Layer Id 1 mapped to tech Id 4 of Layer metal_1 
+[11/01 14:53:27     40s]  lef via Layer Id 1 mapped to tech Id 5 of Layer via_1 
+[11/01 14:53:27     40s]  lef metal Layer Id 2 mapped to tech Id 6 of Layer metal_2 
+[11/01 14:53:27     40s]  lef via Layer Id 2 mapped to tech Id 7 of Layer via_2 
+[11/01 14:53:27     40s]  lef metal Layer Id 3 mapped to tech Id 8 of Layer metal_3 
+[11/01 14:53:27     40s]  lef via Layer Id 3 mapped to tech Id 9 of Layer via_3 
+[11/01 14:53:27     40s]  lef metal Layer Id 4 mapped to tech Id 10 of Layer metal_4 
+[11/01 14:53:27     40s]  lef via Layer Id 4 mapped to tech Id 11 of Layer via_4 
+[11/01 14:53:27     40s]  lef metal Layer Id 5 mapped to tech Id 12 of Layer metal_5 
+[11/01 14:53:27     40s]  lef via Layer Id 5 mapped to tech Id 13 of Layer via_5 
+[11/01 14:53:27     40s]  lef metal Layer Id 6 mapped to tech Id 14 of Layer metal_6 
+[11/01 14:53:27     40s]  lef via Layer Id 6 mapped to tech Id 15 of Layer via_6 
+[11/01 14:53:27     40s]  lef metal Layer Id 7 mapped to tech Id 16 of Layer metal_7 
+[11/01 14:53:27     40s]  lef via Layer Id 7 mapped to tech Id 17 of Layer via_7 
+[11/01 14:53:27     40s]  lef metal Layer Id 8 mapped to tech Id 18 of Layer metal_8 
+[11/01 14:53:27     40s]  lef via Layer Id 8 mapped to tech Id 19 of Layer via_8 
+[11/01 14:53:27     40s]  lef metal Layer Id 9 mapped to tech Id 20 of Layer metal_9 
+[11/01 14:53:27     40s] Metal Layer Id 1 mapped to 4 
+[11/01 14:53:27     40s] Via Layer Id 1 mapped to 5 
+[11/01 14:53:27     40s] Metal Layer Id 2 mapped to 6 
+[11/01 14:53:27     40s] Via Layer Id 2 mapped to 7 
+[11/01 14:53:27     40s] Metal Layer Id 3 mapped to 8 
+[11/01 14:53:27     40s] Via Layer Id 3 mapped to 9 
+[11/01 14:53:27     40s] Metal Layer Id 4 mapped to 10 
+[11/01 14:53:27     40s] Via Layer Id 4 mapped to 11 
+[11/01 14:53:27     40s] Metal Layer Id 5 mapped to 12 
+[11/01 14:53:27     40s] Via Layer Id 5 mapped to 13 
+[11/01 14:53:27     40s] Metal Layer Id 6 mapped to 14 
+[11/01 14:53:27     40s] Via Layer Id 6 mapped to 15 
+[11/01 14:53:27     40s] Metal Layer Id 7 mapped to 16 
+[11/01 14:53:27     40s] Via Layer Id 7 mapped to 17 
+[11/01 14:53:27     40s] Metal Layer Id 8 mapped to 18 
+[11/01 14:53:27     40s] Via Layer Id 8 mapped to 19 
+[11/01 14:53:27     40s] Metal Layer Id 9 mapped to 20 
+[11/01 14:53:28     41s] Completed (cpu: 0:00:02.4 real: 0:00:02.0)
+[11/01 14:53:28     41s] Set Shrink Factor to 1.00000
+[11/01 14:53:28     41s] Summary of Active RC-Corners : 
+[11/01 14:53:28     41s]  
+[11/01 14:53:28     41s]  Analysis View: bc
+[11/01 14:53:28     41s]     RC-Corner Name        : rc
+[11/01 14:53:28     41s]     RC-Corner Index       : 0
+[11/01 14:53:28     41s]     RC-Corner Temperature : 25 Celsius
+[11/01 14:53:28     41s]     RC-Corner Cap Table   : ''
+[11/01 14:53:28     41s]     RC-Corner PreRoute Res Factor         : 1
+[11/01 14:53:28     41s]     RC-Corner PreRoute Cap Factor         : 1
+[11/01 14:53:28     41s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[11/01 14:53:28     41s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[11/01 14:53:28     41s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[11/01 14:53:28     41s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[11/01 14:53:28     41s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[11/01 14:53:28     41s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[11/01 14:53:28     41s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[11/01 14:53:28     41s]     RC-Corner Technology file: '../../../install/FOUNDRY/digital/90nm/dig/qrc/gpdk090_9l.tch'
+[11/01 14:53:28     41s]  
+[11/01 14:53:28     41s]  Analysis View: wc
+[11/01 14:53:28     41s]     RC-Corner Name        : rc
+[11/01 14:53:28     41s]     RC-Corner Index       : 0
+[11/01 14:53:28     41s]     RC-Corner Temperature : 25 Celsius
+[11/01 14:53:28     41s]     RC-Corner Cap Table   : ''
+[11/01 14:53:28     41s]     RC-Corner PreRoute Res Factor         : 1
+[11/01 14:53:28     41s]     RC-Corner PreRoute Cap Factor         : 1
+[11/01 14:53:28     41s]     RC-Corner PostRoute Res Factor        : 1 {1 1 1}
+[11/01 14:53:28     41s]     RC-Corner PostRoute Cap Factor        : 1 {1 1 1}
+[11/01 14:53:28     41s]     RC-Corner PostRoute XCap Factor       : 1 {1 1 1}
+[11/01 14:53:28     41s]     RC-Corner PreRoute Clock Res Factor   : 1	[Derived from postRoute_res (effortLevel low)]
+[11/01 14:53:28     41s]     RC-Corner PreRoute Clock Cap Factor   : 1	[Derived from postRoute_cap (effortLevel low)]
+[11/01 14:53:28     41s]     RC-Corner PostRoute Clock Cap Factor  : 1 {1 1 1} 	[Derived from postRoute_cap (effortLevel low)]
+[11/01 14:53:28     41s]     RC-Corner PostRoute Clock Res Factor  : 1 {1 1 1} 	[Derived from postRoute_res (effortLevel low)]
+[11/01 14:53:28     41s]     RC-Corner Technology file: '../../../install/FOUNDRY/digital/90nm/dig/qrc/gpdk090_9l.tch'
+[11/01 14:53:28     41s] LayerId::1 widthSet size::1
+[11/01 14:53:28     41s] LayerId::2 widthSet size::1
+[11/01 14:53:28     41s] LayerId::3 widthSet size::1
+[11/01 14:53:28     41s] LayerId::4 widthSet size::1
+[11/01 14:53:28     41s] LayerId::5 widthSet size::1
+[11/01 14:53:28     41s] LayerId::6 widthSet size::1
+[11/01 14:53:28     41s] LayerId::7 widthSet size::1
+[11/01 14:53:28     41s] LayerId::8 widthSet size::1
+[11/01 14:53:28     41s] LayerId::9 widthSet size::1
+[11/01 14:53:28     41s] Updating RC grid for preRoute extraction ...
+[11/01 14:53:28     41s] eee: pegSigSF::1.070000
+[11/01 14:53:28     41s] Initializing multi-corner resistance tables ...
+[11/01 14:53:28     41s] eee: l::1 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[11/01 14:53:28     41s] eee: l::2 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[11/01 14:53:28     41s] eee: l::3 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[11/01 14:53:28     41s] eee: l::4 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[11/01 14:53:28     41s] eee: l::5 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[11/01 14:53:28     41s] eee: l::6 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[11/01 14:53:28     41s] eee: l::7 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[11/01 14:53:28     41s] eee: l::8 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[11/01 14:53:28     41s] eee: l::9 avDens::0.000000 usedTrk::0.000000 availTrk::0.000000 sigTrk::0.000000
+[11/01 14:53:28     41s] **Info: Trial Route has Max Route Layer 15/9.
+[11/01 14:53:28     41s] {RT rc 0 9 9 {8 0} 1}
+[11/01 14:53:28     41s] Preroute length aware model : n: 40 ; LLS: 2-3 ; HLS: 3-5 ; rDens: 0.000000 ; uaWl: 0.000000 ; uaWlH: 0.000000 ; aWlH: 0.000000 ; Pmax: 0.850000 ; wcR: 0.000000 ; newSi: 0.000000 ; pMod: 82 ; 
+[11/01 14:53:28     41s] Default value for postRoute extraction mode's effortLevel (-effortLevel option of setExtractRCMode) changed to 'medium'.
+[11/01 14:53:28     41s] *Info: initialize multi-corner CTS.
+[11/01 14:53:28     41s] Ending "SetAnalysisView" (total cpu=0:00:00.0, real=0:00:00.0, peak res=960.3M, current mem=779.4M)
+[11/01 14:53:29     41s] Reading timing constraints file 'constraints_dedee_90nm.sdc' ...
+[11/01 14:53:29     41s] Current (total cpu=0:00:42.0, real=0:04:06, peak res=1011.7M, current mem=1011.7M)
+[11/01 14:53:29     42s] **WARN: (TCLNL-330):	set_input_delay on clock root 'clk' is not supported. You should use the -source option to set_clock_latency to provide this offset. You can also use the global timing_allow_input_delay_on_clock_source to allow set_input_delay assertion to have an effect on clock source paths beginning at this clock root. (File constraints_dedee_90nm.sdc, Line 9).
+[11/01 14:53:29     42s] 
+[11/01 14:53:29     42s] AAE DB initialization (MEM=1188.04 CPU=0:00:00.0 REAL=0:00:00.0) 
+[11/01 14:53:29     42s] #################################################################################
+[11/01 14:53:29     42s] # Design Stage: PreRoute
+[11/01 14:53:29     42s] # Design Name: dedee
+[11/01 14:53:29     42s] # Design Mode: 90nm
+[11/01 14:53:29     42s] # Analysis Mode: MMMC Non-OCV 
+[11/01 14:53:29     42s] # Parasitics Mode: No SPEF/RCDB 
+[11/01 14:53:29     42s] # Signoff Settings: SI Off 
+[11/01 14:53:29     42s] #################################################################################
+[11/01 14:53:29     42s] Topological Sorting (REAL = 0:00:00.0, MEM = 1214.4M, InitMEM = 1214.4M)
+[11/01 14:53:29     42s] Start delay calculation (fullDC) (1 T). (MEM=1214.43)
+[11/01 14:53:29     42s] Start AAE Lib Loading. (MEM=1226.22)
+[11/01 14:53:29     42s] End AAE Lib Loading. (MEM=1235.76 CPU=0:00:00.0 Real=0:00:00.0)
+[11/01 14:53:29     42s] End AAE Lib Interpolated Model. (MEM=1235.76 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/01 14:53:29     42s] First Iteration Infinite Tw... 
+[11/01 14:53:29     42s] Total number of fetched objects 20
+[11/01 14:53:29     42s] Total number of fetched objects 20
+[11/01 14:53:29     42s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/01 14:53:29     42s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/01 14:53:29     42s] End delay calculation. (MEM=1230.82 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/01 14:53:29     42s] End delay calculation (fullDC). (MEM=1203.75 CPU=0:00:00.1 REAL=0:00:00.0)
+[11/01 14:53:29     42s] *** CDM Built up (cpu=0:00:00.1  real=0:00:00.0  mem= 1203.7M) ***
+[11/01 14:53:29     42s] INFO (CTE): Reading of timing constraints file constraints_dedee_90nm.sdc completed, with 1 WARNING
+[11/01 14:53:29     42s] Ending "Constraint file reading stats" (total cpu=0:00:00.4, real=0:00:00.0, peak res=1089.2M, current mem=1015.1M)
+[11/01 14:53:29     42s] Current (total cpu=0:00:42.4, real=0:04:06, peak res=1089.2M, current mem=1015.1M)
+[11/01 14:53:29     42s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[11/01 14:53:29     42s] 
+[11/01 14:53:29     42s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) Begin ...
+[11/01 14:53:29     42s] Summary for sequential cells identification: 
+[11/01 14:53:29     42s]   Identified SBFF number: 112
+[11/01 14:53:29     42s]   Identified MBFF number: 0
+[11/01 14:53:29     42s]   Identified SB Latch number: 0
+[11/01 14:53:29     42s]   Identified MB Latch number: 0
+[11/01 14:53:29     42s]   Not identified SBFF number: 8
+[11/01 14:53:29     42s]   Not identified MBFF number: 0
+[11/01 14:53:29     42s]   Not identified SB Latch number: 0
+[11/01 14:53:29     42s]   Not identified MB Latch number: 0
+[11/01 14:53:29     42s]   Number of sequential cells which are not FFs: 32
+[11/01 14:53:29     42s] Total number of combinational cells: 317
+[11/01 14:53:29     42s] Total number of sequential cells: 152
+[11/01 14:53:29     42s] Total number of tristate cells: 10
+[11/01 14:53:29     42s] Total number of level shifter cells: 0
+[11/01 14:53:29     42s] Total number of power gating cells: 0
+[11/01 14:53:29     42s] Total number of isolation cells: 0
+[11/01 14:53:29     42s] Total number of power switch cells: 0
+[11/01 14:53:29     42s] Total number of pulse generator cells: 0
+[11/01 14:53:29     42s] Total number of always on buffers: 0
+[11/01 14:53:29     42s] Total number of retention cells: 0
+[11/01 14:53:29     42s] List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 CLKBUFX2 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+[11/01 14:53:29     42s] Total number of usable buffers: 16
+[11/01 14:53:29     42s] List of unusable buffers:
+[11/01 14:53:29     42s] Total number of unusable buffers: 0
+[11/01 14:53:29     42s] List of usable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+[11/01 14:53:29     42s] Total number of usable inverters: 19
+[11/01 14:53:29     42s] List of unusable inverters:
+[11/01 14:53:29     42s] Total number of unusable inverters: 0
+[11/01 14:53:29     42s] List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+[11/01 14:53:29     42s] Total number of identified usable delay cells: 8
+[11/01 14:53:29     42s] List of identified unusable delay cells:
+[11/01 14:53:29     42s] Total number of identified unusable delay cells: 0
+[11/01 14:53:29     42s] 
+[11/01 14:53:29     42s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) End ...
+[11/01 14:53:29     42s] 
+[11/01 14:53:29     42s] TimeStamp Deleting Cell Server Begin ...
+[11/01 14:53:29     42s] 
+[11/01 14:53:29     42s] TimeStamp Deleting Cell Server End ...
+[11/01 14:53:29     42s] Ending "Cell type marking" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1015.1M, current mem=998.0M)
+[11/01 14:53:29     42s] 
+[11/01 14:53:29     42s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) Begin ...
+[11/01 14:53:29     42s] Summary for sequential cells identification: 
+[11/01 14:53:29     42s]   Identified SBFF number: 112
+[11/01 14:53:29     42s]   Identified MBFF number: 0
+[11/01 14:53:29     42s]   Identified SB Latch number: 0
+[11/01 14:53:29     42s]   Identified MB Latch number: 0
+[11/01 14:53:29     42s]   Not identified SBFF number: 8
+[11/01 14:53:29     42s]   Not identified MBFF number: 0
+[11/01 14:53:29     42s]   Not identified SB Latch number: 0
+[11/01 14:53:29     42s]   Not identified MB Latch number: 0
+[11/01 14:53:29     42s]   Number of sequential cells which are not FFs: 32
+[11/01 14:53:29     42s]  Visiting view : bc
+[11/01 14:53:29     42s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/01 14:53:29     42s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/01 14:53:29     42s]  Visiting view : wc
+[11/01 14:53:29     42s]    : PowerDomain = none : Weighted F : unweighted  = 36.20 (1.000) with rcCorner = 0
+[11/01 14:53:29     42s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/01 14:53:29     42s] TLC MultiMap info (StdDelay):
+[11/01 14:53:29     42s]   : max + slow + 1 + no RcCorner := 30.3ps
+[11/01 14:53:29     42s]   : max + slow + 1 + rc := 36.2ps
+[11/01 14:53:29     42s]   : min + fast + 1 + no RcCorner := 9.9ps
+[11/01 14:53:29     42s]   : min + fast + 1 + rc := 12ps
+[11/01 14:53:29     42s]  Setting StdDelay to: 12ps
+[11/01 14:53:29     42s] 
+[11/01 14:53:29     42s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) End ...
+[11/01 14:53:29     42s] 
+[11/01 14:53:29     42s] *** Summary of all messages that are not suppressed in this session:
+[11/01 14:53:29     42s] Severity  ID               Count  Summary                                  
+[11/01 14:53:29     42s] WARNING   IMPLF-155            9  ViaRule only supports routing/cut layer,...
+[11/01 14:53:29     42s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[11/01 14:53:29     42s] WARNING   IMPLF-105            2  The layer '%s' specified in SAMENET spac...
+[11/01 14:53:29     42s] WARNING   IMPFP-3961           2  The techSite '%s' has no related standar...
+[11/01 14:53:29     42s] WARNING   IMPVL-159          958  Pin '%s' of cell '%s' is defined in LEF ...
+[11/01 14:53:29     42s] WARNING   TCLNL-330            1  set_input_delay on clock root '%s' is no...
+[11/01 14:53:29     42s] *** Message Summary: 973 warning(s), 0 error(s)
+[11/01 14:53:29     42s] 
+[11/01 14:53:39     43s] <CMD> getIoFlowFlag
+[11/01 14:53:57     44s] <CMD> setIoFlowFlag 0
+[11/01 14:53:57     44s] <CMD> floorPlan -site gsclib090site -r 1 0.8 6 6 6 6
+[11/01 14:53:57     44s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/01 14:53:57     44s] Type 'man IMPFP-3961' for more detail.
+[11/01 14:53:57     44s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/01 14:53:57     44s] Type 'man IMPFP-3961' for more detail.
+[11/01 14:53:57     44s] Horizontal Layer M1 offset = 290 (derived)
+[11/01 14:53:57     44s] Vertical Layer M2 offset = 290 (derived)
+[11/01 14:53:57     44s] Generated pitch 0.29 in Metal8 is different from 0.87 defined in technology file in unpreferred direction.
+[11/01 14:53:57     44s] **WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+[11/01 14:53:57     44s] <CMD> uiSetTool select
+[11/01 14:53:57     44s] <CMD> getIoFlowFlag
+[11/01 14:53:57     44s] <CMD> fit
+[11/01 14:54:20     46s] <CMD> setIoFlowFlag 0
+[11/01 14:54:20     46s] <CMD> floorPlan -coreMarginsBy die -site gsclib090site -r 1 0.8 8 8 8 8
+[11/01 14:54:20     46s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/01 14:54:20     46s] Type 'man IMPFP-3961' for more detail.
+[11/01 14:54:20     46s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/01 14:54:20     46s] Type 'man IMPFP-3961' for more detail.
+[11/01 14:54:20     46s] Horizontal Layer M1 offset = 290 (derived)
+[11/01 14:54:20     46s] Vertical Layer M2 offset = 290 (derived)
+[11/01 14:54:20     46s] Generated pitch 0.29 in Metal8 is different from 0.87 defined in technology file in unpreferred direction.
+[11/01 14:54:20     46s] <CMD> uiSetTool select
+[11/01 14:54:20     46s] <CMD> getIoFlowFlag
+[11/01 14:54:20     46s] <CMD> fit
+[11/01 14:54:44     48s] <CMD> setIoFlowFlag 0
+[11/01 14:54:44     48s] <CMD> floorPlan -coreMarginsBy io -site gsclib090site -r 1 0.8 6 6 6 6
+[11/01 14:54:44     48s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/01 14:54:44     48s] Type 'man IMPFP-3961' for more detail.
+[11/01 14:54:44     48s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/01 14:54:44     48s] Type 'man IMPFP-3961' for more detail.
+[11/01 14:54:44     48s] Horizontal Layer M1 offset = 290 (derived)
+[11/01 14:54:44     48s] Vertical Layer M2 offset = 290 (derived)
+[11/01 14:54:44     48s] Generated pitch 0.29 in Metal8 is different from 0.87 defined in technology file in unpreferred direction.
+[11/01 14:54:44     48s] <CMD> uiSetTool select
+[11/01 14:54:44     48s] <CMD> getIoFlowFlag
+[11/01 14:54:44     48s] <CMD> fit
+[11/01 14:54:45     48s] <CMD> setIoFlowFlag 0
+[11/01 14:54:45     48s] <CMD> floorPlan -site gsclib090site -r 0.9 0.796 6.09 6.09 6.09 6.09
+[11/01 14:54:45     48s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/01 14:54:45     48s] Type 'man IMPFP-3961' for more detail.
+[11/01 14:54:45     48s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/01 14:54:45     48s] Type 'man IMPFP-3961' for more detail.
+[11/01 14:54:45     48s] Horizontal Layer M1 offset = 290 (derived)
+[11/01 14:54:45     48s] Vertical Layer M2 offset = 290 (derived)
+[11/01 14:54:45     48s] Generated pitch 0.29 in Metal8 is different from 0.87 defined in technology file in unpreferred direction.
+[11/01 14:54:45     48s] <CMD> uiSetTool select
+[11/01 14:54:45     48s] <CMD> getIoFlowFlag
+[11/01 14:54:45     48s] <CMD> fit
+[11/01 14:54:56     49s] <CMD> set sprCreateIeRingOffset 1.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeRingThreshold 1.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeRingJogDistance 1.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeRingLayers {}
+[11/01 14:54:56     49s] <CMD> set sprCreateIeRingOffset 1.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeRingThreshold 1.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeRingJogDistance 1.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeRingLayers {}
+[11/01 14:54:56     49s] <CMD> set sprCreateIeStripeWidth 10.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeStripeThreshold 1.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeStripeWidth 10.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeStripeThreshold 1.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeRingOffset 1.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeRingThreshold 1.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeRingJogDistance 1.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeRingLayers {}
+[11/01 14:54:56     49s] <CMD> set sprCreateIeStripeWidth 10.0
+[11/01 14:54:56     49s] <CMD> set sprCreateIeStripeThreshold 1.0
+[11/01 14:55:11     51s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[11/01 14:55:11     51s] The ring targets are set to core/block ring wires.
+[11/01 14:55:11     51s] addRing command will consider rows while creating rings.
+[11/01 14:55:11     51s] addRing command will disallow rings to go over rows.
+[11/01 14:55:11     51s] addRing command will ignore shorts while creating rings.
+[11/01 14:55:11     51s] <CMD> addRing -nets {} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[11/01 14:55:11     51s] 
+[11/01 14:55:11     51s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1139.9M)
+[11/01 14:55:11     51s] **ERROR: Error: Invalid net names specified. 
+[11/01 14:55:12     51s] <CMD> setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+[11/01 14:55:12     51s] The ring targets are set to core/block ring wires.
+[11/01 14:55:12     51s] addRing command will consider rows while creating rings.
+[11/01 14:55:12     51s] addRing command will disallow rings to go over rows.
+[11/01 14:55:12     51s] addRing command will ignore shorts while creating rings.
+[11/01 14:55:12     51s] <CMD> addRing -nets {} -type core_rings -follow core -layer {top Metal9 bottom Metal9 left Metal8 right Metal8} -width {top 1.8 bottom 1.8 left 1.8 right 1.8} -spacing {top 1.8 bottom 1.8 left 1.8 right 1.8} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 0 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None
+[11/01 14:55:12     51s] 
+[11/01 14:55:12     51s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1139.9M)
+[11/01 14:55:12     51s] **ERROR: Error: Invalid net names specified. 
+[11/01 14:55:20     51s] <CMD> set sprCreateIeRingOffset 1.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeRingThreshold 1.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeRingJogDistance 1.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeRingLayers {}
+[11/01 14:55:20     51s] <CMD> set sprCreateIeRingOffset 1.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeRingThreshold 1.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeRingJogDistance 1.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeRingLayers {}
+[11/01 14:55:20     51s] <CMD> set sprCreateIeStripeWidth 10.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeStripeThreshold 1.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeStripeWidth 10.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeStripeThreshold 1.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeRingOffset 1.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeRingThreshold 1.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeRingJogDistance 1.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeRingLayers {}
+[11/01 14:55:20     51s] <CMD> set sprCreateIeStripeWidth 10.0
+[11/01 14:55:20     51s] <CMD> set sprCreateIeStripeThreshold 1.0
+[11/01 14:55:36     53s] <CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+[11/01 14:55:36     53s] addStripe will allow jog to connect padcore ring and block ring.
+[11/01 14:55:36     53s] 
+[11/01 14:55:36     53s] Stripes will stop at the boundary of the specified area.
+[11/01 14:55:36     53s] When breaking rings, the power planner will consider the existence of blocks.
+[11/01 14:55:36     53s] Stripes will not extend to closest target.
+[11/01 14:55:36     53s] The power planner will set stripe antenna targets to none (no trimming allowed).
+[11/01 14:55:36     53s] Stripes will not be created over regions without power planning wires.
+[11/01 14:55:36     53s] The entire stripe set will break at the domain if one of the nets is not in the domain.
+[11/01 14:55:36     53s] addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+[11/01 14:55:36     53s] Offset for stripe breaking is set to 0.
+[11/01 14:55:36     53s] <CMD> addStripe -nets {} -layer Metal8 -direction vertical -width 1.8 -spacing 1.8 -number_of_sets 2 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+[11/01 14:55:36     53s] 
+[11/01 14:55:36     53s] Initialize fgc environment(mem: 1143.0M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1143.0M)
+[11/01 14:55:36     53s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1143.0M)
+[11/01 14:55:36     53s] Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1143.0M)
+[11/01 14:55:36     53s] Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1143.0M)
+[11/01 14:55:37     53s] <CMD> setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer Metal9 -stacked_via_bottom_layer Metal1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+[11/01 14:55:37     53s] addStripe will allow jog to connect padcore ring and block ring.
+[11/01 14:55:37     53s] 
+[11/01 14:55:37     53s] Stripes will stop at the boundary of the specified area.
+[11/01 14:55:37     53s] When breaking rings, the power planner will consider the existence of blocks.
+[11/01 14:55:37     53s] Stripes will not extend to closest target.
+[11/01 14:55:37     53s] The power planner will set stripe antenna targets to none (no trimming allowed).
+[11/01 14:55:37     53s] Stripes will not be created over regions without power planning wires.
+[11/01 14:55:37     53s] The entire stripe set will break at the domain if one of the nets is not in the domain.
+[11/01 14:55:37     53s] addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+[11/01 14:55:37     53s] Offset for stripe breaking is set to 0.
+[11/01 14:55:37     53s] <CMD> addStripe -nets {} -layer Metal8 -direction vertical -width 1.8 -spacing 1.8 -number_of_sets 2 -start_from left -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit Metal9 -padcore_ring_bottom_layer_limit Metal1 -block_ring_top_layer_limit Metal9 -block_ring_bottom_layer_limit Metal1 -use_wire_group 0 -snap_wire_center_to_grid None
+[11/01 14:55:37     53s] 
+[11/01 14:55:37     53s] Initialize fgc environment(mem: 1143.0M) ...  fail and won't use fgc to check drc(cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1143.0M)
+[11/01 14:55:37     53s] Loading cell geometries (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1143.0M)
+[11/01 14:55:37     53s] Loading wires (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1143.0M)
+[11/01 14:55:37     53s] Loading via instances (cpu: 0:00:00.0, real: 0:00:00.0, peak mem: 1143.0M)
+[11/01 14:56:18     57s] <CMD> save_global dedee.globals
+[11/01 14:56:19     58s] <CMD> init_design
+[11/01 14:56:25     59s] **ERROR: **ERROR: (IMPSYT-7329):	Cannot load design with init_design, after design is already in memory.  This command is skipped.
+[11/01 14:56:25     59s] 
+[11/01 14:57:27     65s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Sat Nov  1 14:57:27 2025
+  Total CPU time:     0:01:06
+  Total real time:    0:08:10
+  Peak memory (main): 1037.44MB
+
+[11/01 14:57:27     65s] 
+[11/01 14:57:27     65s] *** Memory Usage v#1 (Current mem = 1151.027M, initial mem = 292.301M) ***
+[11/01 14:57:27     65s] 
+[11/01 14:57:27     65s] *** Summary of all messages that are not suppressed in this session:
+[11/01 14:57:27     65s] Severity  ID               Count  Summary                                  
+[11/01 14:57:27     65s] WARNING   IMPLF-155            9  ViaRule only supports routing/cut layer,...
+[11/01 14:57:27     65s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[11/01 14:57:27     65s] WARNING   IMPLF-105            2  The layer '%s' specified in SAMENET spac...
+[11/01 14:57:27     65s] WARNING   IMPFP-325            1  Floorplan of the design is resized. All ...
+[11/01 14:57:27     65s] WARNING   IMPFP-3961          10  The techSite '%s' has no related standar...
+[11/01 14:57:27     65s] ERROR     IMPSYT-7329          1  Cannot load design with init_design, aft...
+[11/01 14:57:27     65s] WARNING   IMPVL-159          958  Pin '%s' of cell '%s' is defined in LEF ...
+[11/01 14:57:27     65s] WARNING   TCLNL-330            1  set_input_delay on clock root '%s' is no...
+[11/01 14:57:27     65s] *** Message Summary: 982 warning(s), 1 error(s)
+[11/01 14:57:27     65s] 
+[11/01 14:57:27     65s] --- Ending "Innovus" (totcpu=0:01:05, real=0:08:04, mem=1151.0M) ---
